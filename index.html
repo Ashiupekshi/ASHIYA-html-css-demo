@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ASHI - Modern eCommerce HTML5 Template</title>
+    <meta name="description" content="ASHI is a premium eCommerce HTML template for fashion and clothing stores.">
+    <meta name="keywords" content="fashion, shop, clothing, ecommerce, html5, responsive">
+    <meta name="author" content="YourBrandName">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <span>Free Shipping on all orders over Rs. 5000!</span>
+        </div>
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <p><a href="index.html">ASHI</a></p>
+                    </div>
+                    
+                    <button class="menu-toggle" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    
+                    <div class="nav-links-container menu-wrapper">
+                        <ul class="nav-links">
+                            <li><a href="office.html">Office wear</a></li>
+                            <li><a href="casual.html">Casual wear</a></li>
+                            <li><a href="other.html">Other product</a></li>
+                            <li><a href="sale.html">On sale</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="icons-group">
+                         <div class="search-bar">
+                             <input type="text" placeholder="Search...">
+                             <button class="search-icon" aria-label="Search">
+                                 <img src="resource/images/icons8-search-50.png" alt="Search">
+                             </button>
+                         </div>
+                         <div class="user-action">
+                            <a href="signin.html" aria-label="Sign In">
+                                <img src="resource/images/icons8-profile-30.png" alt="Profile">
+                            </a>
+                         </div>
+                         <div class="cart-icon-wrapper">
+                            <button onclick="toggleCart()" class="cart-btn"  aria-label="View Cart">
+                                <img src="resource/images/icons8-cart-30.png" alt="Shopping Cart">
+                            </button>
+                         </div>
+                    </div>    
+                </div> </div> </nav>
+    </header>
+    
+<main>
+        <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="resource/images/banner1-removebg-preview.png" alt="summer fashion promotional banner">
+                <div class="introduce">
+                    <div class="title">Summer</div>
+                    <div class="topic">special offer</div>
+                    <div class="des">
+                        
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                    </div>
+                   
+                   
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="resource/images/banner2-removebg-preview.png" alt="colombo fashion promotional banner">
+                <div class="introduce">
+                    <div class="title">Colombo we've got your</div>
+                    <div class="topic">Convered!</div>
+                    <div class="des">
+                       
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                    </div>
+                    
+                </div>
+                <div class="detail">
+                    <div class="title">Dress</div>
+                    <div class="des">
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="resource/images/banner4-removebg-preview.png" alt="own the office banner">
+                <div class="introduce">
+                    <div class="title">Own the Office</div>
+                    <div class="topic">where confidence meets style</div>
+                    <div class="des">
+                    
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                    </div>
+                    
+                  
+                </div>
+            </div>
+            <div class="item">
+                <img src="resource/images/banner2-removebg-preview.png" alt="colombo banner">
+                <div class="introduce">
+                    <div class="title">Colombo we've got your</div>
+                    <div class="topic">Convered!</div>
+                    <div class="des">
+                        
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="resource/images/banner7-removebg-preview.png" alt="holiday banner">
+                <div class="introduce">
+                    <div class="title">Holiday MAGIC</div>
+                    <div class="topic">seasonal collection</div>
+                    <div class="des">
+                       
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                    </div>
+                   
+                   
+                </div>
+            </div>
+                
+                <div class="item">
+                <img src="resource/images/banner5-removebg-preview.png" alt="denim banner">
+                <div class="introduce">
+                    <div class="title">Denim Dreams</div>
+                    <div class="topic">made to move with you</div>
+                    <div class="des">
+                       
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev" aria-label="Previous slide">&lt;</button>
+            <button id="next" aria-label="Next slide">&gt;</button>
+
+            
+        </div>
+    </div>
+
+ <section class="office-were">
+    <div class="section-header">
+    <h2 class="office-title">Office Wear</h2>
+    <a href="office.html" class="see-all">See All</a>
+    </div>
+
+<div class="products-grid">
+    <article class="product-item">
+        <div class="image-box">
+            <img src="resource/images/1.1.png" alt="Lace Detail Blouse">
+
+        </div>
+        <div class="product-info">
+           <h3><a class="product-link" href="">Lace Detail Blouse</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with <img src="resource/images/logo-1.png" alt="payment logo"></h3>
+           
+        </div>
+    </article>
+     
+     <article class="product-item">
+        <div class="image-box">
+            <img src="resource/images/2.1.png" alt="Button Down Blouse">
+
+        </div>
+        <div class="product-info">
+            <h3><a class="product-link" href="">Button Down Blouse</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with <img src="resource/images/logo-1.png" alt="payment logo"></h3>
+           
+        </div>
+     </article>
+
+      <article class="product-item">
+        <div class="image-box">
+            <img src="resource/images/3.1.png" alt="v-Neck puff sleeve Blouse">
+
+        </div>
+        <div class="product-info">
+            <h3><a class="product-link" href="">v-Neck puff sleeve Blouse</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with <img src="resource/images/logo-1.png" alt="payment logo"></h3>
+            
+        </div>
+      </article>
+
+     <article class="product-item">
+        <div class="image-box">
+            <img src="resource/images/4.1.png" alt="Long sleeves hidden placket shirt Blouse">
+
+        </div>
+        <div class="product-info">
+           <h3> <a class="product-link" href="">Long sleeves hidden placket shirt Blouse</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with <img src="resource/images/logo-1.png" alt="payment logo"></h3>
+           
+        </div>
+     </article>
+
+      <article class="product-item">
+        <div class="image-box">
+            <img src="resource/images/5.1.png" alt="Printed button down shirt Blouse">
+
+        </div>
+        <div class="product-info">
+            <h3><a class="product-link" href="">Printed button down shirt Blouse</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with <img src="resource/images/logo-1.png" alt="payment logo"></h3>
+            
+        </div>
+      </article>
+    </div>
+   
+ </section>
+
+ <section class="office-were">
+    <div class="section-header">
+    <h2 class="office-title">Casual Wear</h2>
+    <a href="casual.html" class="see-all">See All</a>
+    </div>
+
+<div class="products-grid">
+    <article class="product-item">
+        <div class="image-box">
+            <img src="resource/images/c1.1.jpg" alt="Short sleeves Blouse">
+
+        </div>
+        <div class="product-info">
+           <h3><a class="product-link" href="">Short sleeves Blouse</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with <img src="resource/images/logo-1.png" alt="payment logo"></h3>
+            
+        </div>
+    </article>
+     
+     <article class="product-item">
+        <div class="image-box">
+            <img src="resource/images/c2.1.jpg" alt="Plazzo pant ">
+
+        </div>
+        <div class="product-info">
+            <h3><a class="product-link" href="">Plazzo pant </a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with <img src="resource/images/logo-1.png" alt="payment logo"></h3>
+            
+        </div>
+     </article>
+
+      <article class="product-item">
+        <div class="image-box">
+            <img src="resource/images/c3.1.jpg" alt="Stretch hip A-line skirt">
+
+        </div>
+        <div class="product-info">
+            <h3><a class="product-link" href="">Stretch hip A-line skirt</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with <img src="resource/images/logo-1.png" alt="payment logo"></h3>
+            
+        </div>
+      </article>
+
+     <article class="product-item">
+        <div class="image-box">
+            <img src="resource/images/c4.1.jpg" alt="Printed poncho Top">
+
+        </div>
+        <div class="product-info">
+            <h3><a class="product-link" href="">Printed poncho Top</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with <img src="resource/images/logo-1.png" alt="payment logo"></h3>
+            
+        </div>
+     </article>
+
+      <article class="product-item">
+        <div class="image-box">
+            <img src="resource/images/c5.1.jpg" alt="Asymmetrical Hem poncho Top">
+
+        </div>
+        <div class="product-info">
+           <h3><a class="product-link" href="">Asymmetrical Hem poncho Top</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with <img src="resource/images/logo-1.png" alt="payment logo"></h3>
+           
+        </div>
+      </article>
+    </div>
+   
+ </section>
+
+ <section class="banner">
+    <img src="resource/images/banner.jpg" alt="other banner">
+    <h2>Get the Look</h2>
+
+ </section>
+
+
+<section class="office-were">
+    <div class="section-header">
+    <h2 class="office-title">Other Product</h2>
+    <a href="other.html" class="see-all">See All</a>
+    </div>
+
+<div class="products-grid">
+    <div class="product-item">
+        <div class="image-box">
+            <img src="resource/images/01.png" alt="Short sleeves button down">
+
+        </div>
+        <div class="product-info">
+          <h3><a class="product-link" href="">Short sleeves button down</a></h3> 
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with<img src="resource/images/logo-1.png" alt="payment logo"></h3>
+            
+        </div>
+        </div>
+       
+     <div class="product-item">
+        <div class="image-box">
+            <img src="resource/images/02.png" alt="Lantern sleeves square neck dress">
+
+        </div>
+        <div class="product-info">
+            <h3><a class="product-link" href="">Lantern sleeves square neck dress</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with<img src="resource/images/logo-1.png" alt="payment logo"></h3>
+            
+        </div>
+    </div>
+
+      <div class="product-item">
+        <div class="image-box">
+            <img src="resource/images/03.jpg" alt="Raw edge detailed chambray dress">
+
+        </div>
+        <div class="product-info">
+            <h3><a class="product-link" href="">Raw edge detailed chambray dress</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with<img src="resource/images/logo-1.png" alt="payment logo"></h3>
+            
+        </div>
+    </div>
+
+     <div class="product-item">
+        <div class="image-box">
+            <img src="resource/images/04.jpg" alt="Off shoulder party dress">
+
+        </div>
+        <div class="product-info">
+            <h3><a class="product-link" href="">Off shoulder party dress</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with<img src="resource/images/logo-1.png" alt="payment logo"></h3>
+            
+        </div>
+    </div>
+
+      <div class="product-item">
+        <div class="image-box">
+            <img src="resource/images/05.jpg" alt="Puff sleeve charleston dress">
+
+        </div>
+        <div class="product-info">
+            <h3><a class="product-link" href="">Puff sleeve charleston dress</a></h3>
+            <p class="price">$300.00</p>
+            <h3 class="pay-option">or pay only $100.00 now with<img src="resource/images/logo-1.png" alt="payment logo"></h3>
+            
+        </div>
+    </div>
+    </div>
+   </section>
+</main>
+   
+ <footer>
+    <div class="footer-container">
+        <div class="footer-column quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column follow-us">
+            <h3>Follow Us On</h3>
+            <div class="social-icons">
+                <a href="your-facebook-link" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="your-instagram-link" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="your-youtube-link" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-column quick-links">
+           <h3>Online Infomation</h3>
+            <ul>
+                <li>Shipping & Returns</li>
+                <li>Store Finder</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Promotions</li>
+                <li>Arpico Promotion</li>
+                <li>Loyalty Programs</li>
+            </ul>
+        </div> 
+        
+
+        <div class="footer-column customer-service">
+            <h3>Customer Service</h3>
+            <p>60, Pussathota, Ambawila, Pallebadda</p>
+            <p>
+                <a href="mailto:ashiya@gmail.com">ashiya@gmail.com</a>
+            </p>
+            <p>
+                <a href="tel:+94771234567">+94 77 123 4567</a><br>
+                <a href="tel:+94777654321">+94 77 765 4321</a>
+            </p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Your Brand Name. All Rights Reserved.</p>
+    </div>
+</footer>
+<div id="cart-sidebar" class="cart-sidebar">
+    <div class="cart-header">
+        <h2>Shopping Cart (0 Items)</h2>
+        <button class="close-btn" onclick="toggleCart()">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+    <div class="cart-items">
+
+        <p style="text-align: center; color: #666; padding-top: 40px;">Your cart is currently empty.</p>
+    </div>
+
+    <div class="cart-footer">
+        <div class="cart-total">
+            <span>Subtotal:</span>
+            <span id="cart-subtotal">Rs. 0.00</span>
+        </div>
+       
+        <button class="checkout-btn" onclick="checkout()">
+            Proceed to Checkout
+        </button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
